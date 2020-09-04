@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" id="economic_calendar">
+<head>
+	<meta charset="UTF-8" />
+	<title>Velocity Trade Capital Trading Plugin</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="xmlrpc.php" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/favicon.png"/>
+	<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- Admin only notice: this page doesn't show a meta description because it doesn't have one, either write it for this page specifically or go into the SEO -> Titles menu and set up a template. -->
+	<meta name="robots" content="noindex,follow"/>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Velocity Trade Economic Calendar" />
+	<meta property="og:site_name" content="Velocity Trade Economic Calendar" />
+	<link rel='stylesheet' id='default_style-css'  href='includes/themes/bridge/style.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='qode-font-awesome-css'  href='includes/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='qode-elegant-icons-css'  href='includes/themes/bridge/css/elegant-icons/style.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='stylesheet-css'  href='includes/themes/bridge/css/stylesheet.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='webkit-css'  href='includes/themes/bridge/css/webkit_stylesheet.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='style_dynamic-css'  href='includes/themes/bridge/css/style_dynamic.css?ver=1453741092' type='text/css' media='all' />
+	<link rel='stylesheet' id='responsive-css'  href='includes/themes/bridge/css/responsive.min.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='style_dynamic_responsive-css'  href='includes/themes/bridge/css/style_dynamic_responsive.css?ver=1453741092' type='text/css' media='all' />
+	<link rel='stylesheet' id='custom_css-css'  href='includes/themes/bridge/css/custom_css.css?ver=1453741092' type='text/css' media='all' />
+	<link rel='stylesheet' id='childstyle-css'  href='includes/themes/bridge-child/style.css?ver=4.3.1' type='text/css' media='all' />
+	<script type="text/javascript" src="app_includes_prod/jquery-1.10.2.min.js"></script>
+	<script src="includes/timelinemax/TweenMax.min.js"></script>
+	<script src="includes/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript" src="includes/vtecm.js"></script>
+	<script type="text/javascript" src="app_includes_prod/app_standard.js"></script>
+	<link rel='stylesheet' href='includes/vtecm.css' type='text/css' media='all' />
+	<script type="text/javascript" src="includes/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="includes/ckeditor/adapters/jquery.js"></script>
+	<script type="text/javascript" src="includes/stylesheetparser/plugin.js"></script>
+	<script type="text/javascript" src="includes/jstimezonedetect/dist/jstz.min.js"></script>
+	<script>
+	function toggle_menu ( sub_menu ) {
+		jQuery( '#sub_' + sub_menu ).toggle();
+	}
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116153334-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-116153334-1');
+	</script>
+</head>
+
+<body class="page page-id-17441 page-template-default logged-in  qode-title-hidden side_menu_slide_from_right qode-child-theme-ver-1.0.0 qode-theme-ver-7.5 wpb-js-composer js-comp-ver-4.5.3 vc_responsive">
+<div class="ajax_loader"><div class="ajax_loader_1"><div class="stripes"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div></div>
+<section id="side_menu" class="side_menu right light side_area_alignment_left" tabindex="5000" style="overflow-y: hidden; outline: none;    overflow-y: auto;">
+	<a href="#"  onclick="jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%');return false;" target="_self" class="close_side_menu"></a>
+	<div id="nav_menu-5" class="widget widget_nav_menu posts_holder">
+		<div class="menu-fullscreen_menu-container">
+			<ul id="menu-fullscreen_menu" class="menu">
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="#" onclick="load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_view_trades&mobile=1'); jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%'); return false;">View Trades</a>
+				</li>
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="#" onclick="load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_place_order&mobile=1'); jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%'); return false;">Place An Order</a>
+				</li>
+				<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172">
+					<a href="#" onclick="load_content('https://ec.velocitytrade.com/logout'); jQuery('#side_menu').css('visibility', 'hidden');jQuery('#side_menu').css('right','-30%'); return false;">Logout</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<div class="wrapper">
+	<div class="cover"></div>
+		<div class="wrapper_inner">
+			<header class=" scroll_header_top_area light fixed scrolled_not_transparent page_header">
+				<div class="header_inner clearfix">
+					<div class="header_top_bottom_holder">
+						<div class="header_bottom clearfix" style=' background-color:rgba(1, 35, 105, 1);' >
+							<div class="container">
+								<div class="container_inner clearfix">
+									<div class="desktop_logo"><a href="#" onclick="load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_view_trades&mobile=1'); return false"><img src="images/logo.png" border="0"></a></div>
+									<div class="header_inner_right">
+										<div class="side_menu_button_wrapper right" style="float: right;margin-left: 20px;">
+											<div class="side_menu_button">
+												<a class="side_menu_button_link medium" href="#" onclick="jQuery('#side_menu').css('visibility', 'visible');jQuery('#side_menu').css('right', 0);return false;" > <i class="qode_icon_font_awesome fa fa-bars " ></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<a id='back_to_top' href='#'>
+				<span class="fa-stack">
+					<i class="fa fa-arrow-up" style=""></i>
+				</span>
+			</a>
+			<div id="content_loading"><img src="images/loading_wheel.gif"></div>
+			<div id="content_mobile"></div>
+			<div id="app_footer">
+				<div class="footer_section">
+				    <a href="#" onclick="load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_place_order&mobile=1'); return false;"><img src="/images/icon-title-white.png" border="0"></a>
+					<p><a href="#" onclick="load_content('https://ec.velocitytrade.com/user.pl?rm=show_ec_place_order&mobile=1'); return false;">Place An Order</a></p>
+				</div>
+			</div>
+			<script>
+				function load_content (url) {
+					$( "#content_loading" ).show();
+					$( "#content_mobile" ).hide();
+					$( "#content_mobile" ).load( url, function() {
+						$( "#content_loading" ).hide();
+						$( "#content_mobile" ).show();
+					});
+				}
+				
+				/* CODE FOR TESTING GEO LOCATION
+				var onGeoSuccess = function(position) {
+					$.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function( data ) {
+					  alert(data.results[0].address_components[5].long_name);
+					});
+				};
+				function onGeoError(error) {
+					alert('code: '    + error.code    + '\n' +
+						  'message: ' + error.message + '\n');
+				}
+				navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+				*/
+				
+				var tz = jstz.determine();
+				var tz_name = tz.name(); 
+				
+				load_content('https://ec.velocitytrade.com/user.pl&mobile=1');	
+			</script>
+		</div>
+	</div>
+</body>
+</html>
