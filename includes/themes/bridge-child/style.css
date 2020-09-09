@@ -4386,7 +4386,19 @@ color: #ffffff;
 .show_on_mobile {
   display: none !important;
 }
-
+@media only screen and (max-width: 850px) { 
+  #data_table td p.data_value {
+  font-size: 12px;
+  line-height: 12px;
+  }
+  #data_table td p.data_lable {
+  font-size: 8px;
+  line-height: 8px;
+  }
+    #data_table td p.data_value img:not(.icon_change) {
+    height: 11px;
+  }
+}
 @media only screen and (max-width: 801px) {
     .side_menu .widget ul {
         margin-top: 35px;
@@ -4405,7 +4417,7 @@ color: #ffffff;
   }
   #app_title img {
     max-width: 30px;
-    margin: 0 23px 0 10px;
+    margin: 9px 12px 0 10px;
   }
   #app_title h1 {
     line-height: 40px;
@@ -4426,6 +4438,7 @@ color: #ffffff;
   }
   #data_table tr td:last-child {
     padding: 20px 5px 17px 5px;
+       white-space: nowrap; 
   }
   #data_table tr td:only-child {
     padding: 20px 10px 17px 10px;
@@ -4507,8 +4520,7 @@ color: #ffffff;
     line-height: 35px;
   }
   #data_table td p.data_value img:not(.icon_change) {
-    float: left;
-    margin-right: 5px;
+    height: 11px;
   }
   #data_table td p.data_value img.icon_change {
     margin-top: 2px;
@@ -4577,6 +4589,19 @@ color: #ffffff;
   }
   .icon_region {
     max-height: 12px;
+  }
+}
+@media only screen and (max-width: 500px) { 
+  #data_table td p.data_value {
+  font-size: 11px;
+  line-height: 11px;
+  }
+  #data_table td p.data_lable {
+  font-size: 7px;
+  line-height: 7px;
+  }
+    #data_table td p.data_value img:not(.icon_change) {
+    height: 10px;
   }
 }
 
