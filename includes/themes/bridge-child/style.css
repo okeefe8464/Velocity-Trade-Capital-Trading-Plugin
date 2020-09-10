@@ -4593,12 +4593,9 @@ color: #ffffff;
   }
 }
 @media only screen and (max-width: 500px) { 
-  #data_table tr td {
-    padding: 20px 0 17px 2px;
-  }
   #data_table td p.data_value {
-  font-size: 10px;
-  line-height: 10px;
+  font-size: 9px;
+  line-height: 9px;
   }
   #data_table td p.data_lable {
   font-size: 7px;
