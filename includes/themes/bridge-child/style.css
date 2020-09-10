@@ -4593,17 +4593,20 @@ color: #ffffff;
   }
 }
 @media only screen and (max-width: 500px) { 
+  #data_table tr td {
+    padding: 20px 0 17px 2px;
+  }
   #data_table td p.data_value {
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 10px;
+  line-height: 10px;
   }
   #data_table td p.data_lable {
   font-size: 7px;
   line-height: 7px;
   }
-    #data_table td p.data_value img:not(.icon_change) {
+   #data_table td p.data_value img:not(.icon_change) {
     height: 10px;
-  }
+  }  
 }
 
 #content_loading img {
